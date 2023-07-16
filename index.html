@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>LGM Task #3</title>
+  <!-- for register icon -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"> 
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <div class="form-container">
+      <h2>Registration Form</h2>
+      <form id="registrationForm">
+        <label for="name">Name:</label>
+        <input type="text" id="name" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" required>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" required>
+
+        <label for="confirm-password">Confirm Password:</label>
+        <input type="password" id="confirm-password" required>
+        <div id="password-error" class="error"></div>
+
+<label for="aadhaar">Aadhaar Number:</label>
+<input type="text" id="aadhaar">
+<div id="aadhaar-error" class="error"></div>
+
+<label for="contact">Contact No.:</label>
+<input type="text" id="contact">
+<div id="contact-error" class="error"></div>
+
+
+
+<button type="submit"><i class="fas fa-user-check"></i> Register</button>
+      </form>
+    </div>
+
+    <div class="result-container" id="result">
+      <h2>Registration Successful!</h2>
+      <hr>
+      <p><strong>Name:</strong> <span id="display-name"></span></p>
+      <p><strong>Email:</strong> <span id="display-email"></span></p>
+      <p><strong>Password:</strong> <span id="display-password"></span></p>
+      <p><strong>Confirm Password:</strong> <span id="display-confirm-password"></span></p>
+      <p><strong>Aadhaar Number:</strong> <span id="display-aadhaar"></span></p>
+      <p><strong>Contact No.:</strong> <span id="display-contact"></span></p>
+    </div>
+  </div>
+
+ 
+  <script src="script.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
